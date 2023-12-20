@@ -1341,7 +1341,11 @@ class ModuleParameters(Parameters):
         :param item:
         :return:
         """
-
+        """
+        For the forward action to pool, Can you add the possibility to add the SNAT: automap and insert a specific VLAN?
+        Thanks
+        """
+      
         event_map = dict(
             client_accepted='clientAccepted',
             proxy_request='proxyRequest',
